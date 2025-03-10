@@ -12,7 +12,7 @@ def configure_gemini():
     Configure Gemini AI with the necessary settings.
     """
     # Set API key from environment variable or use the provided one
-    api_key = os.environ.get("GEMINI_API_KEY", "AIzaSyDOwA6QzNY5ezsX03nfkCU0yRR0_7Pp3RY")
+    api_key = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY")
     genai.configure(api_key=api_key)
     
     # Configure logging to minimize error messages
